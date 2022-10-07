@@ -1,3 +1,6 @@
-const elem = document.getElementById('script-place')
-elem.innerHTML = 'A bee'
-elem.style.background = 'yellow'
+window.onload = (event) => {  
+  const elem = document.getElementById('script-place');
+  console.log(elem);
+  elem.innerHTML = 'A bee: oo(IÌÍ)>';
+  elem.style.background = 'yellow';
+};
